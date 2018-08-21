@@ -4,7 +4,7 @@ class Gist < Formula
   head "https://github.com/sj26/gist.git", branch: "auth-token-from-git-credential-helper"
 
   def install
-    rake "install", "prefix=#{prefix}"
+    system "rake", "install", "prefix=#{prefix}"
   end
 
   test do
