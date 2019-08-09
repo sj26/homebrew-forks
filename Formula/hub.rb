@@ -1,7 +1,7 @@
 class Hub < Formula
   desc "Add GitHub support to git on the command-line"
   homepage "https://hub.github.com/"
-  head "https://github.com/sj26/hub.git", branch: "git-credentials"
+  head "https://github.com/sj26/hub.git"
 
   depends_on "go" => :build
 
